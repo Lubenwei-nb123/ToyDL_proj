@@ -1,0 +1,231 @@
+digraph g {
+2882528838624 [label="z: float64", color=orange, style=filled]
+2882528838432 [label="Mul", color=lightblue, style=filled, shape=box]
+2882528838432 -> 2882528838624
+2882528770528 [label="float64", color=orange, style=filled]
+2882528770528 -> 2882528838432
+2882528838432 [label="Mul", color=lightblue, style=filled, shape=box]
+2882528770384 -> 2882528770528
+2882528838528 [label="float64", color=orange, style=filled]
+2882528838528 -> 2882528838432
+2882528838432 [label="Mul", color=lightblue, style=filled, shape=box]
+2882528838336 -> 2882528838528
+2882528838384 [label="float64", color=orange, style=filled]
+2882528838384 -> 2882528838336
+2882528838336 [label="Add", color=lightblue, style=filled, shape=box]
+2882528838240 -> 2882528838384
+2882528838480 [label="float64", color=orange, style=filled]
+2882528838480 -> 2882528838336
+2882528771056 [label="float64", color=orange, style=filled]
+2882528771056 -> 2882528838240
+2882528838240 [label="Mul", color=lightblue, style=filled, shape=box]
+2882528770864 -> 2882528771056
+2882528838288 [label="float64", color=orange, style=filled]
+2882528838288 -> 2882528838240
+2882528838240 [label="Mul", color=lightblue, style=filled, shape=box]
+2882528838096 -> 2882528838288
+2882528837904 [label="float64", color=orange, style=filled]
+2882528837904 -> 2882528838096
+2882528838096 [label="Add", color=lightblue, style=filled, shape=box]
+2882528837760 -> 2882528837904
+2882528838192 [label="float64", color=orange, style=filled]
+2882528838192 -> 2882528838096
+2882528838096 [label="Add", color=lightblue, style=filled, shape=box]
+2882528837952 -> 2882528838192
+2882528838048 [label="float64", color=orange, style=filled]
+2882528838048 -> 2882528837952
+2882528837952 [label="Mul", color=lightblue, style=filled, shape=box]
+2882528837856 -> 2882528838048
+2882528838144 [label="float64", color=orange, style=filled]
+2882528838144 -> 2882528837952
+2882488399824 [label="y: float64", color=orange, style=filled]
+2882488399824 -> 2882528837856
+2882528838000 [label="float64", color=orange, style=filled]
+2882528838000 -> 2882528837856
+2882528771968 [label="float64", color=orange, style=filled]
+2882528771968 -> 2882528837760
+2882528837760 [label="Sub", color=lightblue, style=filled, shape=box]
+2882528771776 -> 2882528771968
+2882528837808 [label="float64", color=orange, style=filled]
+2882528837808 -> 2882528837760
+2882528837760 [label="Sub", color=lightblue, style=filled, shape=box]
+2882528772016 -> 2882528837808
+2882528837712 [label="float64", color=orange, style=filled]
+2882528837712 -> 2882528772016
+2882528772016 [label="Mul", color=lightblue, style=filled, shape=box]
+2882528771920 -> 2882528837712
+2882488399824 [label="y: float64", color=orange, style=filled]
+2882488399824 -> 2882528772016
+2882488617920 [label="x: float64", color=orange, style=filled]
+2882488617920 -> 2882528771920
+2882528772064 [label="float64", color=orange, style=filled]
+2882528772064 -> 2882528771920
+2882528771728 [label="float64", color=orange, style=filled]
+2882528771728 -> 2882528771776
+2882528771776 [label="Add", color=lightblue, style=filled, shape=box]
+2882528771536 -> 2882528771728
+2882528771872 [label="float64", color=orange, style=filled]
+2882528771872 -> 2882528771776
+2882528771776 [label="Add", color=lightblue, style=filled, shape=box]
+2882528771680 -> 2882528771872
+2882488399824 [label="y: float64", color=orange, style=filled]
+2882488399824 -> 2882528771680
+2882528771824 [label="float64", color=orange, style=filled]
+2882528771824 -> 2882528771680
+2882528771344 [label="float64", color=orange, style=filled]
+2882528771344 -> 2882528771536
+2882528771536 [label="Add", color=lightblue, style=filled, shape=box]
+2882528771104 -> 2882528771344
+2882528771632 [label="float64", color=orange, style=filled]
+2882528771632 -> 2882528771536
+2882528771536 [label="Add", color=lightblue, style=filled, shape=box]
+2882528771392 -> 2882528771632
+2882528771488 [label="float64", color=orange, style=filled]
+2882528771488 -> 2882528771392
+2882528771392 [label="Mul", color=lightblue, style=filled, shape=box]
+2882528771248 -> 2882528771488
+2882528771584 [label="float64", color=orange, style=filled]
+2882528771584 -> 2882528771392
+2882488617920 [label="x: float64", color=orange, style=filled]
+2882488617920 -> 2882528771248
+2882528771440 [label="float64", color=orange, style=filled]
+2882528771440 -> 2882528771248
+2882528771296 [label="float64", color=orange, style=filled]
+2882528771296 -> 2882528771104
+2882528771200 [label="float64", color=orange, style=filled]
+2882528771200 -> 2882528771104
+2882528771104 [label="Sub", color=lightblue, style=filled, shape=box]
+2882528770960 -> 2882528771200
+2882488617920 [label="x: float64", color=orange, style=filled]
+2882488617920 -> 2882528770960
+2882528771152 [label="float64", color=orange, style=filled]
+2882528771152 -> 2882528770960
+2882528770912 [label="float64", color=orange, style=filled]
+2882528770912 -> 2882528770864
+2882528770864 [label="Pow", color=lightblue, style=filled, shape=box]
+2882528770720 -> 2882528770912
+2882528771008 [label="float64", color=orange, style=filled]
+2882528771008 -> 2882528770864
+2882528770672 [label="float64", color=orange, style=filled]
+2882528770672 -> 2882528770720
+2882528770720 [label="Sub", color=lightblue, style=filled, shape=box]
+2882528770480 -> 2882528770672
+2882528770816 [label="float64", color=orange, style=filled]
+2882528770816 -> 2882528770720
+2882528770720 [label="Sub", color=lightblue, style=filled, shape=box]
+2882528770576 -> 2882528770816
+2882488399824 [label="y: float64", color=orange, style=filled]
+2882488399824 -> 2882528770576
+2882528770768 [label="float64", color=orange, style=filled]
+2882528770768 -> 2882528770576
+2882488617920 [label="x: float64", color=orange, style=filled]
+2882488617920 -> 2882528770480
+2882528770624 [label="float64", color=orange, style=filled]
+2882528770624 -> 2882528770480
+2882528630000 [label="float64", color=orange, style=filled]
+2882528630000 -> 2882528770384
+2882528770384 [label="Add", color=lightblue, style=filled, shape=box]
+2882528629472 -> 2882528630000
+2882528770432 [label="float64", color=orange, style=filled]
+2882528770432 -> 2882528770384
+2882528770384 [label="Add", color=lightblue, style=filled, shape=box]
+2882528770240 -> 2882528770432
+2882528770048 [label="float64", color=orange, style=filled]
+2882528770048 -> 2882528770240
+2882528770240 [label="Add", color=lightblue, style=filled, shape=box]
+2882528769904 -> 2882528770048
+2882528770336 [label="float64", color=orange, style=filled]
+2882528770336 -> 2882528770240
+2882528770240 [label="Add", color=lightblue, style=filled, shape=box]
+2882528770096 -> 2882528770336
+2882528770192 [label="float64", color=orange, style=filled]
+2882528770192 -> 2882528770096
+2882528770096 [label="Mul", color=lightblue, style=filled, shape=box]
+2882528770000 -> 2882528770192
+2882528770288 [label="float64", color=orange, style=filled]
+2882528770288 -> 2882528770096
+2882488399824 [label="y: float64", color=orange, style=filled]
+2882488399824 -> 2882528770000
+2882528770144 [label="float64", color=orange, style=filled]
+2882528770144 -> 2882528770000
+2882528769712 [label="float64", color=orange, style=filled]
+2882528769712 -> 2882528769904
+2882528769904 [label="Add", color=lightblue, style=filled, shape=box]
+2882528631104 -> 2882528769712
+2882528769952 [label="float64", color=orange, style=filled]
+2882528769952 -> 2882528769904
+2882528769904 [label="Add", color=lightblue, style=filled, shape=box]
+2882528769760 -> 2882528769952
+2882528769856 [label="float64", color=orange, style=filled]
+2882528769856 -> 2882528769760
+2882528769760 [label="Mul", color=lightblue, style=filled, shape=box]
+2882528769664 -> 2882528769856
+2882488399824 [label="y: float64", color=orange, style=filled]
+2882488399824 -> 2882528769760
+2882488617920 [label="x: float64", color=orange, style=filled]
+2882488617920 -> 2882528769664
+2882528769808 [label="float64", color=orange, style=filled]
+2882528769808 -> 2882528769664
+2882528631008 [label="float64", color=orange, style=filled]
+2882528631008 -> 2882528631104
+2882528631104 [label="Sub", color=lightblue, style=filled, shape=box]
+2882528630672 -> 2882528631008
+2882528769568 [label="float64", color=orange, style=filled]
+2882528769568 -> 2882528631104
+2882528631104 [label="Sub", color=lightblue, style=filled, shape=box]
+2882528630960 -> 2882528769568
+2882488399824 [label="y: float64", color=orange, style=filled]
+2882488399824 -> 2882528630960
+2882528769520 [label="float64", color=orange, style=filled]
+2882528769520 -> 2882528630960
+2882528630336 [label="float64", color=orange, style=filled]
+2882528630336 -> 2882528630672
+2882528630672 [label="Add", color=lightblue, style=filled, shape=box]
+2882528211408 -> 2882528630336
+2882528630912 [label="float64", color=orange, style=filled]
+2882528630912 -> 2882528630672
+2882528630672 [label="Add", color=lightblue, style=filled, shape=box]
+2882528630432 -> 2882528630912
+2882528630480 [label="float64", color=orange, style=filled]
+2882528630480 -> 2882528630432
+2882528630432 [label="Mul", color=lightblue, style=filled, shape=box]
+2882528629952 -> 2882528630480
+2882528630864 [label="float64", color=orange, style=filled]
+2882528630864 -> 2882528630432
+2882488617920 [label="x: float64", color=orange, style=filled]
+2882488617920 -> 2882528629952
+2882528630528 [label="float64", color=orange, style=filled]
+2882528630528 -> 2882528629952
+2882528630144 [label="float64", color=orange, style=filled]
+2882528630144 -> 2882528211408
+2882528630096 [label="float64", color=orange, style=filled]
+2882528630096 -> 2882528211408
+2882528211408 [label="Sub", color=lightblue, style=filled, shape=box]
+2882528629856 -> 2882528630096
+2882488617920 [label="x: float64", color=orange, style=filled]
+2882488617920 -> 2882528629856
+2882528630048 [label="float64", color=orange, style=filled]
+2882528630048 -> 2882528629856
+2882528629808 [label="float64", color=orange, style=filled]
+2882528629808 -> 2882528629472
+2882528629472 [label="Add", color=lightblue, style=filled, shape=box]
+2882528213760 -> 2882528629808
+2882528629904 [label="float64", color=orange, style=filled]
+2882528629904 -> 2882528629472
+2882528625056 [label="float64", color=orange, style=filled]
+2882528625056 -> 2882528213760
+2882528213760 [label="Pow", color=lightblue, style=filled, shape=box]
+2882488401552 -> 2882528625056
+2882528629424 [label="float64", color=orange, style=filled]
+2882528629424 -> 2882528213760
+2882528213712 [label="float64", color=orange, style=filled]
+2882528213712 -> 2882488401552
+2882488401552 [label="Add", color=lightblue, style=filled, shape=box]
+2882488399872 -> 2882528213712
+2882528213904 [label="float64", color=orange, style=filled]
+2882528213904 -> 2882488401552
+2882488617920 [label="x: float64", color=orange, style=filled]
+2882488617920 -> 2882488399872
+2882488399824 [label="y: float64", color=orange, style=filled]
+2882488399824 -> 2882488399872
+}

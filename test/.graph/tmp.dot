@@ -1,0 +1,45 @@
+digraph g {
+2275027887280 [label="z", color=orange, style=filled]
+2275027879792 [label="Add", color=lightblue, style=filled, shape=box]
+2275027886992 -> 2275027879792
+2274987832864 -> 2275027879792
+2275027879792 -> 2275027887280
+2275027886992 [label="", color=gray, style=filled]
+2274987832864 [label="y", color=orange, style=filled]
+2274988813408 [label="Pow", color=lightblue, style=filled, shape=box]
+2274987833152 -> 2274988813408
+2274987834208 -> 2274988813408
+2274988813408 -> 2274987832864
+2274987833152 [label="x", color=orange, style=filled]
+2274987834208 [label="", color=gray, style=filled]
+2274987833200 [label="Pow", color=lightblue, style=filled, shape=box]
+2275027886368 -> 2274987833200
+2275027879840 -> 2274987833200
+2274987833200 -> 2275027886992
+2275027886368 [label="", color=gray, style=filled]
+2275027879840 [label="", color=gray, style=filled]
+2275027886224 [label="Mul", color=lightblue, style=filled, shape=box]
+2275027885792 -> 2275027886224
+2275027886320 -> 2275027886224
+2275027886224 -> 2275027886368
+2275027885792 [label="", color=gray, style=filled]
+2275027886320 [label="", color=gray, style=filled]
+2275027885744 [label="Pow", color=lightblue, style=filled, shape=box]
+2274987833152 -> 2275027885744
+2275027886176 -> 2275027885744
+2275027885744 -> 2275027886320
+2274987833152 [label="x", color=orange, style=filled]
+2275027886176 [label="", color=gray, style=filled]
+2275027881424 [label="Sub", color=lightblue, style=filled, shape=box]
+2274987834208 -> 2275027881424
+2275027886128 -> 2275027881424
+2275027881424 -> 2275027886176
+2274987834208 [label="", color=gray, style=filled]
+2275027886128 [label="", color=gray, style=filled]
+2275027879984 [label="Mul", color=lightblue, style=filled, shape=box]
+2274988449984 -> 2275027879984
+2274987834208 -> 2275027879984
+2275027879984 -> 2275027885792
+2274988449984 [label="", color=gray, style=filled]
+2274987834208 [label="", color=gray, style=filled]
+}

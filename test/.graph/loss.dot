@@ -1,0 +1,21 @@
+digraph g {
+1454098485600 [label="float64", color=gray, style=filled]
+1454098146432 [label="MeanSquaredError", color=lightblue, style=filled, shape=box]
+1454034943920 -> 1454098146432
+1454097760480 -> 1454098146432
+1454098146432 -> 1454098485600
+1454034943920 [label="(100, 1) float64", color=gray, style=filled]
+1454097760480 [label="(100, 1) float64", color=gray, style=filled]
+1454098146528 [label="Add", color=lightblue, style=filled, shape=box]
+1454098148352 -> 1454098146528
+1454098033904 -> 1454098146528
+1454098146528 -> 1454097760480
+1454098148352 [label="(100, 1) float64", color=gray, style=filled]
+1454098033904 [label="(1,) float64", color=gray, style=filled]
+1454095756144 [label="Matmul", color=lightblue, style=filled, shape=box]
+1454073390544 -> 1454095756144
+1454034943968 -> 1454095756144
+1454095756144 -> 1454098148352
+1454073390544 [label="(100, 1) float64", color=gray, style=filled]
+1454034943968 [label="(1, 1) float64", color=gray, style=filled]
+}
